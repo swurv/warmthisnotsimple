@@ -7,17 +7,16 @@ body {
 	overflow-y: scroll;
 	background-color: black;
 	height: 100%;
-	cursor: url('/assets/cursor.svg'), auto;
 	font: Times New Roman, serif;
 }
 
 *::selection {
-  background: #e1ed5f; /* WebKit/Blink Browsers */
+  background: #e1ed5f;
   color: black;
   -webkit-text-stroke: 1px black;
 }
 *::-moz-selection {
-  background: #e1ed5f; /* Gecko Browsers */
+  background: #e1ed5f;
   color: black;
   -webkit-text-stroke: 1px black;
 }
